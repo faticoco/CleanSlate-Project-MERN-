@@ -1,0 +1,63 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fullcalendar/daygrid": "^6.1.10",
+    "@fullcalendar/react": "^6.1.10",
+    "@grammarly/editor-sdk": "^2.5.5",
+    "@jitsi/react-sdk": "^1.4.0",
+    "@mui/icons-material": "^5.15.0",
+    "@mui/material": "^5.14.20",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.2",
+    "clsx": "^2.0.0",
+    "dotenv": "^16.3.1",
+    "immer": "^10.0.3",
+    "lodash": "^4.17.21",
+    "nodemailer": "^6.9.7",
+    "react": "^17.0.2",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-dom": "^17.0.2",
+    "react-error-boundary": "^4.0.12",
+    "react-router": "^6.20.1",
+    "react-router-dom": "^6.20.1",
+    "react-scripts": "5.0.1",
+    "recharts": "^2.10.3",
+    "socket.io-client": "^4.7.2",
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5",
+    "zustand": "^4.4.7"
+  },
+  "scripts": {
+    "start": "set PORT=5000 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
